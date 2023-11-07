@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.metadata["homepage_uri"] = s.homepage
   s.metadata["source_code_uri"] = s.homepage
 
-  s.add_runtime_dependency "activerecord", ">= 5", "< 7.1"
+  s.add_runtime_dependency "activerecord", ">= 5", "< 7.2"
   s.add_development_dependency "rake", "~> 13"
   s.add_development_dependency "rspec", "~> 3"
   s.add_development_dependency "sqlite3", "~> 1.4"
@@ -29,4 +29,3 @@ Gem::Specification.new do |s|
   s.add_development_dependency "simplecov"
   s.add_development_dependency "countdownlatch"
 end
-
